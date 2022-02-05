@@ -40,3 +40,17 @@ fig, axs = plt.subplots(1, 2)
 plot_confusion_matrix(y_true, y_pred, ax=axs[0])
 plt.show()
 ```
+
+You can also customize the labels for the X and Y axis and the title.
+
+```python
+from easycm import plot_confusion_matrix
+import matplotlib.pyplot as plt
+
+
+y_true = [False, True, True, False]
+y_pred = [False, False, True, True]
+
+plot_confusion_matrix(y_true, y_pred, title='Title', xlabel='X', ylabel='Y')
+plt.show()
+```
