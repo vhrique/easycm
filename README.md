@@ -2,7 +2,7 @@
 
 A simple python package to plot confusion matrices.
 
-![Confusion Matrix](./.figures/confusion_plot.png)
+![Confusion Matrix](https://github.com/vhrique/easycm/blob/main/.figures/confusion_plot.png?raw=true)
 
 ## Installation
 
